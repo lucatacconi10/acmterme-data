@@ -1,0 +1,21 @@
+30-11-2017 - Sinx 0.99.0
+
+Modifica tabella db associazione con l'aggiunta delle voci (suggerimento di Ivano Bucelli): 
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN webPEC varchar(100) AFTER PEC;
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN facebook varchar(100);
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN instagram varchar(100);
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN twitter varchar(100);
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN youtube varchar(100);
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN banca varchar(100);
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN IBAN varchar(100);
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN BIC varchar(100);
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN HomeBanking varchar(100);
+ALTER TABLE tb_anagrafe_associaz ADD COLUMN IscrizioneODVoAPS varchar(100);
+
+01-12-2017 - Sinx 0.99.1
+
+Completamento aggiunta voci associazione, file conf_mod_Associaz.php, datiassociaz.inc (Cartella Lang), dati_Associaz.php
+
+03-12-2017 - Sinx 0.99.2
+
+aggiornamento file top.inc e index2.php con aggiunta informazioni utili e grafica, ampliamento menu Anagrafica Associazione e inserimento dei tasti rapidi (suggerimenti di Ivano Bucelli)
